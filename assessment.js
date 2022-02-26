@@ -86,12 +86,12 @@ function assessment(userName){
   return result;
 }
 
- console.log(assessment('祥太'));
+//  console.log(assessment('祥太'));
 // console.log(assessment('次郎'));
 // console.log(assessment('太郎'));
 
 // テストコード
-console.assert(
-  assessment('祥太') === assessment('祥太'),
-  '正しくありません。'
+// console.assert(
+//   assessment('祥太') === assessment('祥太'),
+//   '正しくありません。'
 );
